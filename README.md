@@ -454,25 +454,8 @@ Confidence: XX%
 
 The confidence should be interpreted carefully because a neural-network output is not automatically a calibrated probability.
 
-## Recommended Repository Structure
 
-```text
-AI-Image-CNN-Project/
-│
-├── AI_Image_CNN_Project.ipynb
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── results/
-│   ├── training_accuracy.png
-│   ├── training_loss.png
-│   ├── confusion_matrix.png
-│   └── sample_predictions.png
-│
-└── models/
-    └── ai_image_cnn.keras
-```
+
 
 The full image dataset should generally not be committed to GitHub if it is too large or if its redistribution rights are unclear. Instead, document the dataset source and download instructions.
 
@@ -520,19 +503,9 @@ The current model achieved **66.44% test accuracy**. While this demonstrates tha
 
 The strongest next step is to improve the experiment using **transfer learning, better-matched image categories, stronger evaluation metrics, and independent unseen-image testing**.
 
-## Author / Team
 
-Add project members here:
 
-```text
-Name: ______________________________
-Index Number: ______________________
-Role: ______________________________
 
-Name: ______________________________
-Index Number: ______________________
-Role: ______________________________
-```
 
 ## Academic Disclaimer
 
